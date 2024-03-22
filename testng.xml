@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentListnerClass"/>
+    </listeners>
+    <test name="API Tests-User Endpoint">
+        <classes>
+            <class name="api.testcases.userTests_2"/>
+        </classes>
+    </test>
+</suite>
